@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 String solve;
                 String solve2;
                 if(a.getText().toString().equals("")||b.getText().toString().equals("")||c.getText().toString().equals("")){
+                    otv.setTextSize(14);
                     otv.setTextColor(Color.RED);
                     otv.setText("Рикардо вами не доволен!\nХватит ломать приложение!");
 
